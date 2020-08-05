@@ -1,4 +1,5 @@
 import React from 'react';
+import './EcommercePage.css';
 import { MDBRow, MDBCol, MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardFooter, MDBTooltip } from 'mdbreact';
 
 const EcommercePage = () => {
@@ -30,7 +31,7 @@ const EcommercePage = () => {
               <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
               <MDBCardFooter className='px-1'>
                 <span className='float-left font-weight-bold'>
-                  <strong>1439$</strong>
+                  <strong>$ 1439</strong>
                 </span>
                 <span className='float-right'>
                   <MDBTooltip domElement placement='top'>
@@ -66,7 +67,7 @@ const EcommercePage = () => {
               <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
               <MDBCardFooter className='px-1'>
                 <span className='float-left font-weight-bold'>
-                  <strong>1160$</strong>
+                  <strong>$ 1160</strong>
                 </span>
                 <span className='float-right'>
                   <MDBTooltip domElement placement='top'>
@@ -102,7 +103,7 @@ const EcommercePage = () => {
               <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
               <MDBCardFooter className='px-1'>
                 <span className='float-left font-weight-bold'>
-                  <strong>2160$</strong>
+                  <strong>$ 2160</strong>
                 </span>
                 <span className='float-right'>
                   <MDBTooltip domElement placement='top'>
